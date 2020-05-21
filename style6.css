@@ -274,6 +274,15 @@ footer{
   padding-top: 3px;
 }
 
+@media(min-width:1350px){
+  .mainSite{
+    width: 1350px;
+  }
+  {
+    text-align: center;
+  }
+}
+
 @media(max-width: 1140px){
   .coloanaCentru{
     grid-template-columns: auto auto;
@@ -287,23 +296,27 @@ footer{
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "logo chef" "emailsocialsearch emailsocialsearch" "menus menus";
-    justify-items: self-start;
+    justify-items: center;
   }
   .emailSocialSearch{
-    display: inline;
+    text-align: center;
+    display: block;
   }
   .iconCuText, .menu{
     margin-top: 20px;
   }
-  .logo{
-    margin-left: 0px;
+  .iconCuTexticon{
+    display: block;
+    text-align: center;
   }
+  
   .pastryChef{
     text-align: left;
   }
   .menuHide{
     display: block;
   }
+ 
   .divNavLi{
     display: none;
     position: absolute;
