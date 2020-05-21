@@ -276,7 +276,7 @@ footer{
 
 @media(max-width: 1140px){
   .coloanaCentru{
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
   }
 }
 
