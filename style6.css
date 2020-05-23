@@ -19,7 +19,9 @@ body{
   background-size: cover;
 }
 
-
+header{
+  
+}
 
 /*Navigare Principala*/
 
@@ -192,17 +194,7 @@ body{
     
 }  
   
- 
-/*Dropdown menu*/
-.contentThemedCakes{
-  xdisplay: none;
-}
-.contentThemedCakes a{
-  xdisplay: block;
-}
-.dropDown:hover .contentThemedCakes{
-  xdisplay: block;
-}
+
 /*poza mare centru*/
 .pozaCentrala{
   height: 250px;
@@ -274,20 +266,24 @@ footer{
   padding-top: 3px;
 }
 
-@mediascreen and (min-width:1350px){
+@media screen and (min-width:1350px){
   .mainSite{
-    width: 1350px;
-  }
+    width: 1400px;
+    margin: 0 auto;
+}
   
 }
 
-@media screen and (max-width: 1140px){
+@media screen and (max-width: 1000px){
   .coloanaCentru{
     grid-template-columns: auto auto;
   } 
+  .main{
+    grid-template-columns: 8% auto 8%;
+  }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
   .baraNavigare{
     position: static;
     height: 350px;
@@ -318,15 +314,24 @@ footer{
   .divNavLi{
     display: none;
     position: absolute;
-  }
-  .menuHide:hover .divNavLi{
-    display: block;
-  }
-  .divPozaCentrala{
-    margin-top: 20px;
+    left: 0px;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    columns: 1;
+    background:  #e73895;
+    text-align: center;
   }
   
+  .divPozaCentrala{
+   display: none;
+    
+  }
+  .main{
+    grid-template-columns: 6% auto 6%;
+  }
   .coloanaCentru{
+    margin-top: 25px;
     grid-template-columns: auto;
   }
  

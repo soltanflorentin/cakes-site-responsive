@@ -35,7 +35,7 @@
               </div>
 
               <div class="menu">
-                <div class="menuHide">
+                <div class="menuHide" onclick="dropMenu()">
                     <i class="fas fa-bars searchIcon x flox">MENU</i>
                 </div>
                 <div class="divNavLi">
@@ -53,18 +53,13 @@
                    <p>Pastry Chef Oana</p>
               </div>
   </header>
-         
-    
-    <div class="divPozaCentrala">
-         
+    <div class="divPozaCentrala">   
         <img class="pozaCentrala" src="photo/pozawide.jpg" alt="pozawide">
-    
     </div>
-
     <div class="main">
         <div class="coloanaStanga">
         </div> 
-          <div class="coloanaCentru" onclick="produs(0)">
+          <div id="colCentru" class="coloanaCentru">
                 <div class="produseIndividual cakes">
                     <img class="pozeProduseIndividual" src="photo/poza.jpg" alt="poz1">
                     <p>Elsa Cake</p>
