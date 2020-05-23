@@ -86,6 +86,7 @@ header{
   border-radius: 100%;
   padding: 2px 6px;
   font-size: 20px;
+  margin-left: 5px;
 }
 .instagram i, .youtube i{
   color: red;
@@ -146,7 +147,7 @@ header{
 .navLi{
   list-style: none;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   border-right: 1px dashed white;
@@ -296,6 +297,9 @@ footer{
     text-align: center;
     display: block;
   }
+  .facebook, .twitter, .instagram, .youtube{
+    margin-left: 10px;
+  }
   .iconCuText, .menu{
     margin-top: 20px;
   }
@@ -339,6 +343,28 @@ footer{
 
 
 /*alte pagini*/
+
+/*contact*/
+.contactPage, .aboutPage{
+  background: lightskyblue;
+  height: 500px;
+  width: auto;
+  margin-top: 170px;
+  text-align: center;
+}
+.contactPage h1, .aboutPage h1{
+  padding-top: 20px;
+  background: lightblue;
+  font-weight: bold;
+  font-size: 45px;
+  border-bottom: 1px dashed black;
+  font-family: var(--fontFamily);
+}
+.contactPage h2, .aboutPage h2{
+  font-size: 50px;
+  color: red;
+  margin-top: 80px;
+}
 .telefonIcon{
   color: blue;
   font-size: 28px;
