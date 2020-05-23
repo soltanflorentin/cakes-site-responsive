@@ -307,9 +307,12 @@ footer{
     display: block;
     text-align: center;
   }
-  
-  .pastryChef{
+  .divLogo{
+    width: 100%;
     text-align: left;
+  }
+  .pastryChef{
+    text-align: right;
   }
   .menuHide{
     display: block;
