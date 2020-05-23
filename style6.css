@@ -230,7 +230,7 @@ body{
   align-items: center;
 }
 .pozeProduseIndividual{
-  height: 201px;
+  width: 100%;
 
 }
 
@@ -258,7 +258,7 @@ body{
 footer{
 
   border-radius: 10px;
-  width: 900px;
+  width: auto;
   height: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -274,22 +274,20 @@ footer{
   padding-top: 3px;
 }
 
-@media(min-width:1350px){
+@mediascreen and (min-width:1350px){
   .mainSite{
     width: 1350px;
   }
-  {
-    text-align: center;
-  }
+  
 }
 
-@media(max-width: 1140px){
+@media screen and (max-width: 1140px){
   .coloanaCentru{
     grid-template-columns: auto auto;
-  }
+  } 
 }
 
-@media(max-width: 750px){
+@media screen and (max-width: 750px){
   .baraNavigare{
     position: static;
     height: 350px;
@@ -324,11 +322,14 @@ footer{
   .menuHide:hover .divNavLi{
     display: block;
   }
+  .divPozaCentrala{
+    margin-top: 20px;
+  }
   
   .coloanaCentru{
     grid-template-columns: auto;
   }
-  
+ 
 }
 
 
